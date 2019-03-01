@@ -36,14 +36,13 @@ class Header extends Component {
     };
 
     render() {
-        let HeaderClasses = [];
-        if(this.state.showHeader) {
-            HeaderClasses = [ classes.Header, classes.Header_show ]
-        } else {
-            HeaderClasses = [ classes.Header, classes.Header_transparent ]
-        }
         return (
-            <AppBar className={ HeaderClasses.join(' ') }>
+            <AppBar 
+            className={ classes.Header }
+            style={{
+                backgroundColor: this.state.showHeader ? '#004A67' : 'transparent',
+                boxShadow: 'none'
+            }}>
 
                 <Toolbar className={ classes.Toolbar }>
 
