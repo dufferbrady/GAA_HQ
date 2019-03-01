@@ -1,0 +1,8 @@
+.Carousel_Wrapper {
+    height:700px;
+    overflow: hidden;
+}
+
+.Carousel_Image {
+    background-size: cover !important;
+}

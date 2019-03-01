@@ -1,0 +1,21 @@
+.Event_Name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 200px;
+    -webkit-transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);   
+    border: 2px solid white;
+}
+
+.Event_Name .Wrapper {
+    border: 2px solid white;
+    height: 161px;
+    margin: 6px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding: 21px 70px 0px 70px;
+    text-transform: uppercase;
+}
