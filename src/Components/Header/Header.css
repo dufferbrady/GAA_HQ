@@ -1,0 +1,21 @@
+.Appbar {
+    position: fixed;
+}
+
+.Header {
+    transition: all 300ms ease-in;
+    background-color: #004A67;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.Header_logo_GAAHQ {
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+}
+
+.IconBtn {
+    color: white;
+}
