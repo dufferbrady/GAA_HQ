@@ -2,6 +2,7 @@ import React from 'react';
 
 import classes from './Featured.css'
 import Carousel from '../Carousel/Carousel'
+import Countdown from '../Countdown/Countdown'
 
 const Featured = () => {
     return (
@@ -14,6 +15,9 @@ const Featured = () => {
                     All Ireland Final 2019
                 </div>
             </div>
+
+            <Countdown />
+            
         </div>
     );
 };
