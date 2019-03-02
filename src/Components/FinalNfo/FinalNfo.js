@@ -7,7 +7,7 @@ import classes from './FinalNfo.css'
 
 const FinalNfo = () => {
     return (
-        <div className={classes.bck_black}>
+        <div className={classes.bck_gaa_dark}>
             <div className={classes.center_wrapper}>
                 <div className={classes.vn_wrapper}>
 
@@ -15,9 +15,9 @@ const FinalNfo = () => {
                         <div className={classes.vn_item}>
                             <div className={classes.vn_outer}>
                                 <div className={classes.vn_inner}>
-                                    <div className={[classes.vn_icon_square, classes.bck_red].join(' ')}></div>
+                                    <div className={[classes.vn_icon_square, classes.bck_gaa_med].join(' ')}></div>
                                     <div 
-                                        className={classes.vn_icon}
+                                        className={[classes.vn_icon, classes.bck_gaa_light].join(' ')}
                                         style={{
                                             background:`url(${icon_calendar})`
                                         }}
@@ -38,9 +38,9 @@ const FinalNfo = () => {
                         <div className={classes.vn_item}>
                             <div className={classes.vn_outer}>
                                 <div className={classes.vn_inner}>
-                                    <div className={[classes.vn_icon_square, classes.bck_yellow].join(' ')}></div>
+                                    <div className={[classes.vn_icon_square, classes.bck_gaa_med].join(' ')}></div>
                                     <div 
-                                        className={classes.vn_icon}
+                                        className={[classes.vn_icon, classes.bck_gaa_light].join(' ')}
                                         style={{
                                             background:`url(${icon_location})`
                                         }}

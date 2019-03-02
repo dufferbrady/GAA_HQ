@@ -1,14 +1,17 @@
-.bck_black {
-    background: #3c3c3c;
-}
 .bck_white {
     background: #ffffff;
 }
-.bck_red {
-    background: #ff4800;
+
+.bck_gaa_dark {
+    background: #004A67;
 }
-.bck_yellow {
-    background: #ffa800;
+
+.bck_gaa_med {
+    background: #005E82;
+}
+
+.bck_gaa_light {
+    background: #1A7FA6;
 }
 
 .iconImage {
